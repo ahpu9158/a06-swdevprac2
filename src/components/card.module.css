@@ -1,0 +1,38 @@
+div.card {
+    width: 300px;
+    height: 400px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+
+
+div.cardimg {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+
+    justify-content: center;
+    align-items: center;  
+}
+
+
+
+div.cardtext h2 {
+    height: 20%;
+    padding: 10px;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+
+div.cardtext h4 {
+    height: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
